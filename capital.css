@@ -1,0 +1,10 @@
+body{
+    background-image: url("  https://www.mapsinternational.co.uk/pub/media/catalog/product/x/s/a/satellite-map-of-the-world_wm00875.jpg");
+
+    background-size: cover;
+ background-position: cover;
+background-repeat: no-repeat;
+}
+img{
+    width: 30px
+}
