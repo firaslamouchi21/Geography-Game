@@ -1,0 +1,161 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    background-image: url("https://cdnuploads.aa.com.tr/uploads/Contents/2017/04/13/thumbs_b_c_99a83e2b179b7005261c305ae3863330.jpg?v=155619");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+
+.quiz-container {
+    max-width: 1500px;
+    margin: 50px auto;
+    background:transparent;
+    padding: 30px 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 10 px rgba(0, 0 , 0, .2);
+    text-align: center;
+    border: 2px solid rgba(255, 255, 255,.2) ;
+    backdrop-filter: blur(20px);
+   
+}
+
+button {
+    background-color: skyblue;
+    border: 1px solid skyblue;
+    border-radius: 4px;
+    box-shadow: rgba(0, 0, 0, .1) 0 2px 4px 0;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    font-family: "Akzidenz Grotesk BQ Medium", -apple-system, BlinkMacSystemFont, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    outline: none;
+    outline: 0;
+    padding: 10px 25px;
+    text-align: center;
+    transform: translateY(0);
+    transition: transform 150ms, box-shadow 150ms;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    position: relative;
+    bottom: 10px;
+    font-size: 40px;
+    
+    
+    
+}
+button:hover {
+    box-shadow: rgba(0, 0, 0, .15) 0 3px 9px 0;
+    transform: translateY(-2px);
+  }
+  @media (min-width: 768px) {
+    button-37 {
+      padding: 10px 30px;
+    }
+  }
+#result {
+    margin-top: 20px;
+}
+h2{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 50px;
+}
+#question{
+    font-size: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+#options{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: px;
+    position: relative;
+    top: 25px;
+    
+}
+#nextBtn{
+    position: relative;
+    top: 300px;
+    left: 1100px;
+    
+    
+    height: 50px;
+  background-image: linear-gradient(144deg,#AF40FF, #5B42F3 50%,#00DDEB);
+  border: 0;
+  border-radius: 8px;
+  box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  display: flex;
+  font-family: Phantomsans, sans-serif;
+  font-size: 20px;
+  justify-content: center;
+  line-height: 1em;
+  max-width: 100%;
+  min-width: 140px;
+  padding: 3px;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  cursor: pointer;
+}
+#nextBtn:active,
+#nextBtn:hover {
+  outline: 0;
+}
+#nextBtn span {
+    background-color: rgb(5, 6, 45);
+    padding: 16px 24px;
+    border-radius: 6px;
+    width: 100%;
+    height: 100%;
+    transition: 300ms;
+  }
+  #nextBtn:hover span {
+    background: none;
+  }
+  
+  @media (min-width: 768px) {
+    #nextBtn {
+      font-size: 24px;
+      min-width: 196px;
+    }
+  }
+
+  #result{
+font-size: 50px;
+background-color: orange;
+font-family:Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+  #correctResult{
+    font-size: 35px;
+    background-color: rgb(0, 128, 0);
+    position: relative;
+    top: -25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  #incorrectResult{
+    background-color: red;
+    background-position: center;
+    background-size: cover ;
+    position: relative;
+    top: -25px;
+    font-size: 35px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+
+
+
+
+  #imageContainer{
+    width: 50px;
+  }
