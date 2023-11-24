@@ -1,0 +1,217 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    background-image: url("https://images.unsplash.com/photo-1566935843973-aed0ddcb0ecc?q=80&w=2029&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-position: center;
+    background-size: cover;
+}
+
+.quiz-container {
+    max-width: 600px;
+    margin: 50px auto;
+    color: aliceblue;
+    padding: 30px 40px;
+    border-radius: 10px;
+    border: 2px solid rgba(255, 255, 255,.2) ;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    backdrop-filter: blur(20px);
+   
+}
+
+button {
+    background-color: skyblue;
+    border: 1px solid skyblue;
+    border-radius: 4px;
+    box-shadow: rgba(0, 0, 0, .1) 0 2px 4px 0;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    font-family: "Akzidenz Grotesk BQ Medium", -apple-system, BlinkMacSystemFont, sans-serif;
+    font-size: 26px;
+    font-weight: 400;
+    outline: none;
+    outline: 0;
+    padding: 10px 25px;
+    text-align: center;
+    transform: translateY(0);
+    transition: transform 150ms, box-shadow 150ms;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    position: relative;
+    bottom: -30px;
+    
+    
+    
+}
+button:hover {
+    box-shadow: rgba(0, 0, 0, .15) 0 3px 9px 0;
+    transform: translateY(-2px);
+  }
+  @media (min-width: 768px) {
+    button-37 {
+      padding: 10px 30px;
+    }
+  }
+#result {
+    margin-top: 20px;
+}
+h2{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 50px;
+}
+#question{
+    font-size: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+#options{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+    
+}
+#nextBtn{
+    position: relative;
+    top: 90px;
+    left: 200px;
+    
+    height: 50px;
+  background-image: linear-gradient(144deg,#AF40FF, #5B42F3 50%,#00DDEB);
+  border: 0;
+  border-radius: 8px;
+  box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  display: flex;
+  font-family: Phantomsans, sans-serif;
+  font-size: 20px;
+  justify-content: center;
+  line-height: 1em;
+  max-width: 100%;
+  min-width: 140px;
+  padding: 3px;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  cursor: pointer;
+}
+#nextBtn:active,
+#nextBtn:hover {
+  outline: 0;
+}
+#nextBtn span {
+    background-color: rgb(5, 6, 45);
+    padding: 16px 24px;
+    border-radius: 6px;
+    width: 100%;
+    height: 100%;
+    transition: 300ms;
+  }
+  #nextBtn:hover span {
+    background: none;
+  }
+  
+  @media (min-width: 768px) {
+    #nextBtn {
+      font-size: 24px;
+      min-width: 196px;
+    }
+  }
+
+  #result{
+font-size: 50px;
+background-color: orange;
+font-family:Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+  #correctResult{
+    font-size: 35px;
+    background-color: green;
+    position: relative;
+    top: -25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  #incorrectResult{
+    background-color: red;
+    background-position: center;
+    background-size: cover ;
+    position: relative;
+    top: -25px;
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
